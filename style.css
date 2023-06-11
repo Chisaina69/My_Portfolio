@@ -99,3 +99,9 @@ nav ul li a{
 .content ol li span{
     color: brown;
 }
+.content {
+    display: none;
+}
+.content.active-tab{
+    display: block;
+}

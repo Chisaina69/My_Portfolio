@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="./style.js">
+    <script src="./style.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -42,16 +42,16 @@
                     <p>I am currently attending <span>Moringa School</span> learning on full web development.</p>
                     <p>Over the past 3 years I have been able to work aroun a number of companies and worked on some exciting works with them.</p>
                 <div class="tiles">
-                    <p><div class="tile-links active-link">Education</div></p>
-                    <p><div class="tile-links">Skills</div></p>
+                    <p><div class="tile-links active-link"onclick="opentab('Education')">Education</div></p>
+                    <p><div class="tile-links" onclick="opentab('Skills')">Skills</div></p>
                   </div>
-                  <div class="content"> 
+                  <div class="content active-tab"id="Education"> 
                     <ol>
                         <li><span>2023</span><br>Moringa School</li>
                         <li><span>2019-2022</span><br> Mount Kenya University</li>
                     </ol>
                   </div>
-                  <div class="content">
+                  <div class="content" id="Skills">
                     <ol>
                         <li><span>Web development</span><br>Web intefarce development </li>
                         <li><span>Web development</span><br>Android IOS development</li>
