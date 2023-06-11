@@ -5,6 +5,9 @@
     list-style: none;
     font-family: 'Raleway', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #000;
     color: #fff;
@@ -150,4 +153,11 @@ form input, form textarea{
 form, button{
     margin-top: 20px;
     cursor: pointer;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: lightslategray;
+    font-weight: 500;
 }
